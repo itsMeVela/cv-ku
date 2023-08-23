@@ -10,7 +10,7 @@
 </head>
 
 <body>
-
+    <!-- navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
         <div class="container">
             <a class="navbar-brand" href="#">
@@ -42,7 +42,7 @@
             </div>
         </div>
     </nav>
-
+    <!-- conten 1 -->
     <div class="container">
         <div class="row" style="margin-top: 20%;">
             <div class="col-8">
@@ -63,6 +63,7 @@
             </div>
         </div>
     </div>
+    <!-- conten 2 -->
     <div style="background-color: #EEEEEE;">
         <div class="container" style="margin-top:18%;">
             <div class="row" style="padding-top: 10%; padding-bottom: 10%;">
@@ -159,8 +160,7 @@
             </div>
         </div>
     </div>
-
-
+    <!-- conten 3 -->
     <div class="container" style="margin-top:15%;">
         <div class="row" style="padding-top: 10%; padding-bottom: 10%;">
             <div class="row">
