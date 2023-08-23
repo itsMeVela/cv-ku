@@ -60,13 +60,19 @@
 
 <body>
    <div  >
-   <h1 class="font padding text-light ">Hello, We're <br> a Front end Developer</h1> <!--fontnya kok g ganti ya ayy:(-->
-   </div>
-   <div class="d-inline-flex p-2 font text-light" style="margin-left:7%;">
-     Fond of creating web application designs and<br>
-     bring them to life using code and develop <br>
-     mobile designs.
-   </div>
+        <h1 class="font padding text-light ">Hello, We're <br> a Front end Developer</h1> <!--fontnya kok g ganti ya ayy:(-->
+        <div class="d-inline-flex p-2 font text-light" style="margin-left:7%;" >
+            Fond of creating web application designs and<br>
+            bring them to life using code and develop <br>
+            mobile designs. 
+         </div>
+         <div>
+         <button type="button" class="btn btn-warning btn-lg mt-2" style="margin-left:7%;" >Large button</button>
+         </div>
+    </div>
+   
+   
+  
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
