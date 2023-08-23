@@ -6,7 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@300&family=Noto+Sans:wght@300&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
 </head>
+<style>
+    .font
+    {
+        font-family: 'Inter', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Noto Sans', sans-serif;
+        font-family: 'Playfair Display', serif;
+    }
+    .padding
+    {
+        margin-top: 5%;
+        margin-left: 7%;
+    }
+
+</style>
+    
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container">
         <a class="navbar-brand" href="#">   <image src="assets/img/Favel.png"class="d-inline-block align-text-top" alt="" style="width: 100px; height: 35px;"></a>
@@ -32,11 +51,16 @@
                     <a class="nav-link mx-3" href="#">Portofolio</a>
                 </li>
             </ul>
+
         </div>
     </div>
 </nav>
 
+
 <body>
+   <div  >
+   <h1 class="font padding ">Hello, We're <br> a Front end Developer</h1> <!--fontnya kok g ganti ya ayy:(-->
+   </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
