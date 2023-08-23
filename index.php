@@ -67,12 +67,79 @@
         </div>
 
         <div class="row">
-            <div class="left" style="margin-top:30%;">Services
-                <h1 class="text-warning" style="font-size: 60px;">Skill-Set</h1>
-                <div class="col-1 rounded" style="border: 3px solid #FFBD41;"></div>
+            <div class="row" style="margin-top:35%;">
+                <div class="col-10">
+                    <h1 class="text-warning" style="font-size: 60px;">Skill-Set</h1>
+                    <div class="col-1 rounded" style="border: 3px solid #FFBD41;"></div>
+                    <div>
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="card mt-5">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card mt-5">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card mt-5">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card mt-5">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card mt-5">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card mt-5">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-2">
+                    <div class="d-flex justify-content-center " style="margin-top: 85%; margin-left: 60%;">
+                        <image src="assets/img/2.png" alt="">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
 
 
 </body>
