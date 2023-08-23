@@ -24,6 +24,10 @@
         margin-left: 7%;
     }
     body{background-color:rgb(26, 26, 34);}
+    .left
+    {
+        margin-left:7%;
+    }
 
 </style>
     
@@ -67,12 +71,14 @@
             mobile designs. 
          </div>
          <div>
-         <button type="button" class="btn btn-warning btn-lg mt-2" style="margin-left:7%;" >Large button</button>
+         <button type="button" class="btn btn-warning btn-lg mt-2" style="margin-left:7%;" >Creator Journey</button>
          </div>
-    </div>
-   
-   
-  
+    </div class="font">
+   <div class=" text-light left" style="margin-top:10%;">Services
+    <h1 class="text-warning" >Skill-Set</h1>
+    
+   </div>
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
