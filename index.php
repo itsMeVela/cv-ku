@@ -45,7 +45,7 @@
     <!-- conten 1 -->
     <div class="container">
         <div class="row" style="margin-top: 20%;">
-            <div class="col-8">
+            <div class="col-10">
                 <h1 style="font-size: 80px;">Hello, We're <br> a Front end Developer</h1>
                 <div class="d-inline-flex text-secondary mt-2">
                     Fond of creating web application designs and<br>
@@ -56,8 +56,8 @@
                     <button type="button" class="btn btn-outline-warning mt-4 btn-lg text-dark">Creator Journey</button>
                 </div>
             </div>
-            <div class="col-4">
-                <div class="d-flex justify-content-center" style=" margin-left: 70%;">
+            <div class="col-2">
+                <div class="d-flex justify-content-end">
                     <image src="assets/img/1.png" alt="">
                 </div>
             </div>
@@ -135,14 +135,16 @@
                             <div class="col-4 ">
                                 <div class="card mt-5 shadow border border-0 bg-body-tertiary rounded">
                                     <div class="card-body">
-                                        <h1 class="card-title"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                        <h1 class="card-title">
+                                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                                                 <style>
                                                     svg {
                                                         fill: #ffbd41
                                                     }
                                                 </style>
                                                 <path d="M128 0C92.7 0 64 28.7 64 64V288H19.2C8.6 288 0 296.6 0 307.2C0 349.6 34.4 384 76.8 384H320V288H128V64H448V96h64V64c0-35.3-28.7-64-64-64H128zM512 128H400c-26.5 0-48 21.5-48 48V464c0 26.5 21.5 48 48 48H592c26.5 0 48-21.5 48-48V256H544c-17.7 0-32-14.3-32-32V128zm32 0v96h96l-96-96z" />
-                                            </svg></h1>
+                                            </svg>
+                                        </h1>
                                         <h6 class="card-subtitle mt-4 mb-4 text-body-secondary">Card subtitle</h6>
                                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                     </div>
@@ -153,47 +155,114 @@
 
                 </div>
                 <div class="col-2">
-                    <div class="d-flex justify-content-center " style="margin-top: 115%; margin-left: 60%;">
+                    <div class="d-flex justify-content-end align-items-center" style="margin-top: 115%;">
                         <image src="assets/img/2.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+
     <!-- conten 3 -->
-    <div class="container" style="margin-top:15%;">
+    <div class="container">
         <div class="row" style="padding-top: 10%; padding-bottom: 10%;">
-            <div class="row">
-                <div class="col-8">
-                    <h2 class="text-warning pb-3 " style="font-size: 80px;"> Connect With Me</h2>
-                    <div class="input-group mb-1">
-                        <input type="text" class="form-control shadow-sm p-3 mb-5 bg-body-tertiary rounded" placeholder="Email" aria-label="Email">
-                    </div>
-                    <div class="input-group mb-1">
-                        <input type="text" class="form-control shadow-sm p-3 mb-5 bg-body-tertiary rounded" placeholder="Messge" aria-label="Messge">
-                    </div>
-                    <div>
-                        <button type="button" class="btn btn-outline-warning btn-lg text-dark" style="margin-left: 75%;">Stay Connected <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <div class="col-6">
+                <h2 class="text-warning pb-3 " style="font-size: 60px;"> Connect With Me</h2>
+                <div class="input-group mb-1">
+                    <input type="text" class="py-4 form-control shadow-sm p-3 mb-5 bg-body-tertiary rounded" placeholder="Email" aria-label="Email">
+                </div>
+                <div class="input-group mb-1">
+                    <input type="text" class="py-4 form-control shadow-sm p-3 mb-5 bg-body-tertiary rounded" placeholder="Messge" aria-label="Messge">
+                </div>
+                <div class="d-flex justify-content-end">
+                    <button type="button" class="btn btn-outline-warning btn-lg text-dark px-5 py-3">
+                        <div class="d-flex d-flex-row">
+                            <p class="m-0">Stay Connected</p>
+                            <svg style="margin-top: 4%; margin-left: 10px;" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                                 <style>
                                     svg {
                                         fill: #1f2951
                                     }
                                 </style>
                                 <path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
-                            </svg> </button>
+                            </svg>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="d-flex justify-content-end" style="margin-top: 10%;">
+                    <image src="assets/img/3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- conten 4 -->
+    <div style="background-color: #EEEEEE;">
+        <div class="p-5">
+            <div class="d-flex justify-content-center">
+                <div class="d-flex justify-content-center align-items-center rounded-circle bg-warning" style="width: 100px; height: 100px;">
+                    <h1>
+                        <svg style="fill: #ffffff" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <path d="M313.4 32.9c26 5.2 42.9 30.5 37.7 56.5l-2.3 11.4c-5.3 26.7-15.1 52.1-28.8 75.2H464c26.5 0 48 21.5 48 48c0 18.5-10.5 34.6-25.9 42.6C497 275.4 504 288.9 504 304c0 23.4-16.8 42.9-38.9 47.1c4.4 7.3 6.9 15.8 6.9 24.9c0 21.3-13.9 39.4-33.1 45.6c.7 3.3 1.1 6.8 1.1 10.4c0 26.5-21.5 48-48 48H294.5c-19 0-37.5-5.6-53.3-16.1l-38.5-25.7C176 420.4 160 390.4 160 358.3V320 272 247.1c0-29.2 13.3-56.7 36-75l7.4-5.9c26.5-21.2 44.6-51 51.2-84.2l2.3-11.4c5.2-26 30.5-42.9 56.5-37.7zM32 192H96c17.7 0 32 14.3 32 32V448c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32V224c0-17.7 14.3-32 32-32z" />
+                        </svg>
+                    </h1>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center mt-3">
+                <h3 style="font-weight: 700; font-size: 30px; color: #1F2951;">
+                    Vela Portofolio Designs
+                </h3>
+            </div>
+            <div class="d-flex justify-content-center mt-1">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="row">
+                            <div class="col-2">
+                                <svg style="fill: #ffbd41;" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                    <path d="M313.4 32.9c26 5.2 42.9 30.5 37.7 56.5l-2.3 11.4c-5.3 26.7-15.1 52.1-28.8 75.2H464c26.5 0 48 21.5 48 48c0 18.5-10.5 34.6-25.9 42.6C497 275.4 504 288.9 504 304c0 23.4-16.8 42.9-38.9 47.1c4.4 7.3 6.9 15.8 6.9 24.9c0 21.3-13.9 39.4-33.1 45.6c.7 3.3 1.1 6.8 1.1 10.4c0 26.5-21.5 48-48 48H294.5c-19 0-37.5-5.6-53.3-16.1l-38.5-25.7C176 420.4 160 390.4 160 358.3V320 272 247.1c0-29.2 13.3-56.7 36-75l7.4-5.9c26.5-21.2 44.6-51 51.2-84.2l2.3-11.4c5.2-26 30.5-42.9 56.5-37.7zM32 192H96c17.7 0 32 14.3 32 32V448c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32V224c0-17.7 14.3-32 32-32z" />
+                                </svg>
+                            </div>
+                            <div class="col-6">
+                                <span class="badge rounded-pill text-bg-warning">100k</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="container" style="margin-top:18%;">
-                        <div class="row" style="padding-top: 10%; padding-bottom: 10%;">
+                    <div class="col-4">
+                        <div class="row">
+                            <div class="col-2">
+                                <svg style="fill: #ffbd41;" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                    <path d="M313.4 32.9c26 5.2 42.9 30.5 37.7 56.5l-2.3 11.4c-5.3 26.7-15.1 52.1-28.8 75.2H464c26.5 0 48 21.5 48 48c0 18.5-10.5 34.6-25.9 42.6C497 275.4 504 288.9 504 304c0 23.4-16.8 42.9-38.9 47.1c4.4 7.3 6.9 15.8 6.9 24.9c0 21.3-13.9 39.4-33.1 45.6c.7 3.3 1.1 6.8 1.1 10.4c0 26.5-21.5 48-48 48H294.5c-19 0-37.5-5.6-53.3-16.1l-38.5-25.7C176 420.4 160 390.4 160 358.3V320 272 247.1c0-29.2 13.3-56.7 36-75l7.4-5.9c26.5-21.2 44.6-51 51.2-84.2l2.3-11.4c5.2-26 30.5-42.9 56.5-37.7zM32 192H96c17.7 0 32 14.3 32 32V448c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32V224c0-17.7 14.3-32 32-32z" />
+                                </svg>
+                            </div>
+                            <div class="col-6">
+                                <span class="badge rounded-pill text-bg-warning">28k</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="row">
+                            <div class="col-2">
+                                <svg style="fill: #ffbd41;" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                    <path d="M313.4 32.9c26 5.2 42.9 30.5 37.7 56.5l-2.3 11.4c-5.3 26.7-15.1 52.1-28.8 75.2H464c26.5 0 48 21.5 48 48c0 18.5-10.5 34.6-25.9 42.6C497 275.4 504 288.9 504 304c0 23.4-16.8 42.9-38.9 47.1c4.4 7.3 6.9 15.8 6.9 24.9c0 21.3-13.9 39.4-33.1 45.6c.7 3.3 1.1 6.8 1.1 10.4c0 26.5-21.5 48-48 48H294.5c-19 0-37.5-5.6-53.3-16.1l-38.5-25.7C176 420.4 160 390.4 160 358.3V320 272 247.1c0-29.2 13.3-56.7 36-75l7.4-5.9c26.5-21.2 44.6-51 51.2-84.2l2.3-11.4c5.2-26 30.5-42.9 56.5-37.7zM32 192H96c17.7 0 32 14.3 32 32V448c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32V224c0-17.7 14.3-32 32-32z" />
+                                </svg>
+                            </div>
+                            <div class="col-6">
+                                <span class="badge rounded-pill text-bg-warning">30k</span>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
-                    <div class="d-flex justify-content-center " style="margin-top: 15%; margin-left: 80%;">
-                        <image src="assets/img/3.png" alt="">
-                    </div>
-                </div>
-
-
+            </div>
+            <div class="d-flex justify-content-center mt-4">
+                <p>
+                    Published : Agust 24th 2023
+                </p>
+            </div>
+        </div>
+    </div>
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
