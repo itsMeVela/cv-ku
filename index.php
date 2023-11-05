@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <!-- https://www.behance.net/gallery/97205839/Developer-Portfolio-Design -->
 
 <head>
@@ -7,9 +8,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <title>Portofolio</title>
+    
 </head>
 
 <body>
+    <div class="z-n1 position-absolute p-5 rounded-3">
+        <img src="assets/img/bg.png" class="img-fluid" alt="">
+    </div>
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -66,6 +71,7 @@
     </nav>
     <!-- conten 1 -->
     <div class="container">
+
         <div class="row" style="margin-top: 20%;">
             <div class="col-10">
                 <h1 style="font-size: 80px;">Hello, I'm Vela </h1>
@@ -77,13 +83,15 @@
                     <button type="button" class="btn btn-outline-warning mt-4 btn-lg text-dark">Creator Journey</button>
                 </div>
             </div>
+
             <div class="col-2">
                 <div class="d-flex justify-content-end">
-                    <image src="assets/img/1.png" alt="">
+                    <image src="assets/img/gbr1.png" alt="">
                 </div>
             </div>
         </div>
     </div>
+
     <!-- conten 2 -->
     <div style="background-color: #EEEEEE;">
         <div class="container" style="margin-top:18%;">
